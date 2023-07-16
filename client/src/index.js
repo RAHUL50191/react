@@ -18,23 +18,23 @@ root.render(
         <Container>
           <Nav>
             <Nav.Link as={Link} to="/todo">
-              Todo
+              <li>Todo</li>
             </Nav.Link>
             <Nav.Link as={Link} to="/fruits">
-              Animal
+              <li>fruit generator</li>
             </Nav.Link>
             <Nav.Link as={Link} to="/task">
-              Task
+              <li>Task</li>
             </Nav.Link>
             <Nav.Link as={Link} to="/tictactoe">
-              Tic Tac Toe
+              <li>Tic Tac Toe</li>
             </Nav.Link>
             <Nav.Link as={Link} to="/chess">
-              Chess
+              <li>Chess</li>
             </Nav.Link>
-            <Nav.Link as={Link} to="/snakeladder">
-              SnakeLadder
-            </Nav.Link>
+            {/* <Nav.Link as={Link} to="/snakeladder">
+             <li>SnakeLadder</li> 
+            </Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
