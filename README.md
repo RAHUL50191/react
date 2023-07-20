@@ -1,6 +1,6 @@
 # React
 
-project based of react : to-do,tictactoe,chess etc
+project based on react : to-do,tictactoe,chess etc
 
 # proxy
 
